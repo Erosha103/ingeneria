@@ -1,0 +1,138 @@
+namespace ConsoleApp1
+{
+  class Program
+  {
+    static void Main()
+      int a;
+                Console.WriteLine("a =");
+                a = Convert.ToInt32(Console.Readline());
+                if (a == 1)
+                { Console.WriteLine("Это понедельник");}
+                if (a == 2)
+                { Console.WriteLine("Это вторник");}
+                if (a == 3)
+                { Console.WriteLine("Это среда");}
+                if (a == 4)
+                { Console.WriteLine("Это четверг");}
+                if (a == 5)
+                { Console.WriteLine("Это пятница");}
+                if (a == 6)
+                { Console.WriteLine("Это суббота");}
+                if (a == 7)
+                { Console.WriteLine("Это воскресенье");}
+                if (a > 7)
+                { Console.WriteLine("Это за гранью моего понимания");}
+                Console.ReadKey();
+   }
+{
+
+
+namespace ConsoleApp3
+{
+  class Program
+  {
+    static void Main()
+      int a,b,c;
+                Console.WriteLine("a =");
+                a = Convert.ToInt32(Console.Readline());
+                Console.WriteLine("a =");
+                b = Convert.ToInt32(Console.Readline());
+                Console.WriteLine("a =");
+                c = Convert.ToInt32(Console.Readline());
+                if (a > b && a > c)
+                { Console.WriteLine("самое большое число", a);}
+                if (b > a && b > c)
+                { Console.WriteLine("самое большое число", b);}
+                if (c > a && c > b)
+                { Console.WriteLine("самое большое число", c);}
+                Console.ReadKey();
+   }
+}
+
+
+
+namespace ConsoleApp4
+{
+  class Program
+  {
+    static void Main()
+      int a,b,c;
+                Console.WriteLine("a =");
+                a = Convert.ToInt32(Console.Readline());
+                Console.WriteLine("a =");
+                b = Convert.ToInt32(Console.Readline());
+                Console.WriteLine("a =");
+                c = Convert.ToInt32(Console.Readline());
+                if (a < b && a < c)
+                { Console.WriteLine("самое минимально число", a);}
+                if (b < a && b < c)
+                { Console.WriteLine("самое минимальное число", b);}
+                if (c < a && c < b)
+                { Console.WriteLine("самое минимальное число", c);}
+                Console.ReadKey();
+   }
+}
+
+namespace ConsoleApp5
+{
+  class Program
+  {
+    static void Main()
+      int a,b,c;
+                Console.WriteLine("a =");
+                a = Convert.ToInt32(Console.Readline());
+                Console.WriteLine("a =");
+                b = Convert.ToInt32(Console.Readline());
+                Console.WriteLine("a =");
+                c = Convert.ToInt32(Console.Readline());
+                if (a >= 1 && a<=3)
+                { Console.WriteLine("Число принадлежит интервалу от 1 до 3", a);}
+                if (b >= 1 && b<=3)
+                { Console.WriteLine("Число принадлежит интервалу от 1 до 3", b);}
+                if (c >= 1 && c<=3)
+                { Console.WriteLine("Число принадлежит интервалу от 1 до 3", c);}
+                Console.ReadKey();
+   }
+}
+
+
+
+
+namespace ConsoleApp6
+{
+  class Program
+  {
+    static void Main(string[] args)
+      int a,b,c;
+                Console.WriteLine("a =");
+                a = Convert.ToInt32(Console.Readline());
+                Console.WriteLine("a =");
+                b = Convert.ToInt32(Console.Readline());
+                Console.WriteLine("a =");
+                c = Convert.ToInt32(Console.Readline());
+                if (a >= 1 && a<=3)
+                { Console.WriteLine("Число принадлежит интервалу от 1 до 3", a);}
+                if (b >= 1 && b<=3)
+                { Console.WriteLine("Число принадлежит интервалу от 1 до 3", b);}
+                if (c >= 1 && c<=3)
+                { Console.WriteLine("Число принадлежит интервалу от 1 до 3", c);}
+                Console.ReadKey();
+   }
+{
+
+
+namespace ConsoleApp7
+{
+  class Program
+  {
+    static void Main(string[] args)
+      int a,b,c;
+                Console.WriteLine("a =");
+                a = Convert.ToInt32(Console.Readline());
+                if (a >= 500 && a <= 1000)
+                {Console.WriteLine("Ваша скидка 3 проца", c);}
+                if (a > 1000)
+                {Console.WriteLine("ваша скидка 5 проца", c);}
+                Console.ReadKey();
+   }
+{
