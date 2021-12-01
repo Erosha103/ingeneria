@@ -1,0 +1,82 @@
+nomer 1
+
+
+namespace indaser
+{
+    class Program
+    {
+        static void Perimeter(int x, int y, int z)
+        {
+            int Per;
+            Per = x + y + z;
+            Console.WriteLine(Per);
+        }
+        static void Main(string[] args)
+        {
+            int x = int.Parse(Console.ReadLine());
+            int y = int.Parse(Console.ReadLine());
+            int z = int.Parse(Console.ReadLine());
+            Perimeter(x, y, z);
+            Console.ReadKey();
+        }
+    }
+}
+
+    
+    
+    nomer 2
+    
+    
+namespace indaser   
+{
+    class Program
+    {
+        static int Perimeter(int x, int y, int z)
+        {
+            int Per;
+            Per = x + y + z;
+            return (Per);
+        }
+        static void Main(string[] args)
+        {
+            int x = int.Parse(Console.ReadLine());
+            int y = int.Parse(Console.ReadLine());
+            int z = int.Parse(Console.ReadLine());
+            Console.WriteLine(Perimeter(x, y, z));
+            Console.ReadKey();
+        }
+    }
+}
+   
+    
+    
+    nomer 3
+    
+   
+namespace indaser
+{
+    class Program
+    {
+        static void MinmaxSeq(ref int ma, ref int mi)
+        {
+            int a = Convert.ToInt32(Console.ReadLine());
+            while (a != 0)
+            {
+                if (a > ma)
+                { ma = a; }
+                if (a < mi)
+                { mi = a; }
+                a = Convert.ToInt32(Console.ReadLine());
+            }
+            return;
+        }
+        static void Main(string[] args)
+        {
+            int ma = -100000, mi = 100000;
+            MinmaxSeq(ref ma, ref mi);
+            Console.WriteLine("minimum=" + mi + " maximum=" + ma);
+            Console.ReadKey();
+        }
+    }
+}    
+    
